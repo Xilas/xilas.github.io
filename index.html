@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Minecraft</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.stellar.min.js"></script>
+
+<!--http://www.twoimpulse.com/zenith/development/using-jquery-scrollto-part1-->
+
+</head>
+
+<body>
+	<div class="nav">
+	<ul>
+    	<li><a href="#first">A</a></li>
+        <li><a href="#second">A</a></li>
+        <li><a href="#third">A</a></li>
+    </ul>
+	</div>
+    
+	<div class="full-page-panel" id="first" data-stellar-background-ratio="0.5">
+    		<div id="header"><img src="images/Minecraft.png"/></div>
+            <div class="content">
+            <div id="creeper" style="cursor: pointer;" onclick="window.location='https://minecraft.net';"><img src="images/Creeper_copy.png" style="no-repeat;"/></div>
+        	
+        	
+          <p>
+                Minecraft is a game about breaking and placing blocks. At first, people built structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things.<br /><br />
+It can also be about adventuring with friends or watching the sun rise over a blocky ocean. It’s pretty. Brave players battle terrible things in The Nether, which is more scary than pretty. You can also visit a land of mushrooms if it sounds more like your cup of tea.
+                
+            </p>
+        <ul>
+        	<li><a href="https://www.facebook.com/minecraft" target="_blank"><img src="images/facebook.png"/></a></li>
+            <li><a href="#"><img src="images/twitter.png" /></a></li>
+        </ul>
+        
+        </div><!-- End Content -->
+    </div><!-- End first -->
+    
+    <div class="full-page-panel" id="second" data-stellar-background-ratio="0.5">
+    	<div id="video_container">
+        	<iframe id="video" width="630" height="350" src="https://www.youtube.com/embed/MmB9b5njVbA?hd=1&autohide=1&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+    </div><!--End second -->
+    <div class="full-page-panel" id="third" data-stellar-background-ratio="0.5">
+    	<div class="content">
+        <p>
+        Bacon ipsum dolor sit amet kielbasa salami corned beef short loin tongue spare ribs hamburger strip steak. Jerky boudin cow tongue prosciutto, doner short ribs tenderloin rump landjaeger capicola sausage. Chicken jerky sausage pig boudin meatball bacon. Biltong ham hock bresaola landjaeger brisket boudin hamburger shankle fatback shank pork belly cow chicken ham turducken. Bacon strip steak turkey, shankle shoulder ham sausage meatloaf tenderloin tri-tip shank venison pork chop.
+        Bacon ipsum dolor sit amet kielbasa salami corned beef short loin tongue spare ribs hamburger strip steak. Jerky boudin cow tongue prosciutto, doner short ribs tenderloin rump landjaeger capicola sausage. Chicken jerky sausage pig boudin meatball bacon. Biltong ham hock bresaola landjaeger brisket boudin hamburger shankle fatback shank pork belly cow chicken ham turducken. Bacon strip steak turkey, shankle shoulder ham sausage meatloaf tenderloin tri-tip shank venison pork chop.
+        </p>
+        <div><img src="" /></div>
+        </div>
+    </div><!-- End Third -->
+    
+    <script>
+$(document).ready(function(){
+	
+	
+	$('.nav a').click(function(){
+  $.scrollTo( this.hash, 1500, { easing:'swing' });
+  return false;
+});
+ 
+});
+	
+	$(window).stellar();
+	$.stellar({
+	horizontalScrolling:true
+	// rest of function
+	
+	
+	});
+	
+</script>
+
+<!--<script>
+function OpenInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+</script>
+
+<script>
+$(document).ready(function(){
+
+	$(".full-page-panel").height($(window).height());
+
+});
+
+$(window).resize(function(){
+
+	$(".full-page-panel").height($(window).height());
+});
+</script>-->
+
+</body>
+</html>
