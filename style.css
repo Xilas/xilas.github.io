@@ -53,10 +53,15 @@ table {
 /************************/
 
 body {
+	background: black;
 	margin: 0 auto;
 	position: relative;
 	padding: 0;
 	min-width: 965px;
+}
+
+#wrapper {
+	width: 100%;	
 }
 
 #header {
