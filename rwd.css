@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 1400px){
+	
+	#first {
+		background: #0CF;	
+	}
+	.content {
+		font-size: 1em;	
+	}
+	
+	.content li{
+		padding: 1% 1% 0 0;	
+	}
+	
+	.content li img{
+		max-width: 90%;
+		height: auto;	
+	}
+	
+}
+
+@media (max-width: 720px){
+	
+	
+		
+}
