@@ -162,20 +162,27 @@ PAGE 2
 	padding-bottom: 20%;
 }
 
-#video {
+#video_container h2{
+	color: white;
+	font-size: 1.5em;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-weight: 900;
+}
+
+#video_container p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 1em;
+	padding-top: 1%;
 }
 
 /***********************
 PAGE 3
 ***********************/
 
-#third .content {
-	height: 500px;
-	width: 66.666667%
-}
-#third .content p {
-	padding: 5% 10% 10% 5%;	
-}
+
 
 #third{
  -webkit-background-size: cover;
@@ -183,4 +190,45 @@ PAGE 3
   -o-background-size: cover;
   background-size: cover;
 	background: url(images/Third.png) no-repeat fixed;
+}
+
+#merch {
+    max-width:100%;
+    margin:0 auto;
+	padding:5% 0;
+}
+
+#merch h1{
+	text-align: center;
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: 900;
+	padding-bottom: 3%;
+}
+
+#third ul {
+    font-size:0;
+    text-align:center;
+	padding-bottom: 2%;
+	
+}
+#third ul li {
+    display:inline;
+	padding-left: 2%;
+	
+}
+
+#third img {
+	-moz-transition:-moz-transform 0.1s ease-in; 
+-webkit-transition:-webkit-transform 0.1s ease-in; 
+-o-transition:-o-transform 0.1s ease-in	
+}
+
+#third img:hover {
+	-moz-transform:scale(1.25); 
+-webkit-transform:scale(1.25);
+-o-transform:scale(1.25);
+-moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+	
 }
