@@ -60,6 +60,7 @@
 		margin: 0 auto;
 		width: 90%;
 		height: 21.875em;
+		padding: 3%;
 	}	
 	
 	#social_media {
@@ -78,9 +79,4 @@
 	#first iframe {
 		height: 300px;
 	}
-}r: red 2px solid;
-		/*display: inline;*/
-	}
-	
-		
 }
