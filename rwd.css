@@ -23,6 +23,57 @@
 
 @media (max-width: 720px){
 	
+	body {
+	}	
+	
+	.nav {
+		display: none;	
+	}
+	
+	#header {
+		margin: 0 auto;
+		border: yellow 2px solid;	
+		width: 90%;
+	}
+	
+	#creeper{
+		display: none;	
+	}
+	
+	.content {
+		width: 90%;	
+		border: yellow 2px solid;
+		height: auto;
+	}
+	
+	#video {
+		display: none;	
+		border: yellow 2px solid;
+	}
+	
+	#second {
+		display: none;
+	}	
+	#third {
+		display: none;	
+	}
+	
+	#first iframe {
+		display: block !important;
+		margin: 0 auto;
+		border: yellow 2px solid;
+		width: 90%;
+	}	
+	
+	#social_media {
+		display: none;	
+	}
+	
+	#social_media2 {
+		float: right;	
+		border: red 2px solid;
+		/*display: inline;*/
+	}
 	
 		
 }

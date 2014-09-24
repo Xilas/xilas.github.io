@@ -57,7 +57,6 @@ body {
 	margin: 0 auto;
 	position: relative;
 	padding: 0;
-	min-width: 965px;
 }
 
 #wrapper {
@@ -67,7 +66,15 @@ body {
 #header {
 	position: relative;
 	margin: 0 auto;
-	width: 972px;
+	width: 80%;
+}
+
+#first iframe {
+	display: none;	
+}
+
+#social_media2 {
+	display: none;	
 }
 /***********************
 NAV
@@ -139,7 +146,7 @@ PAGE 1
 	float: left;
 }
 #creeper img{
-	max-width: 100%;
+	width: 100%;
 	height: auto;	
 }
 
