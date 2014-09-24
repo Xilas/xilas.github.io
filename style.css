@@ -106,11 +106,12 @@ PAGE 1
 ***********************/
 
 #first {
-  -webkit-background-size: cover;
+ /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-	background: url(images/First.jpg) no-repeat fixed;
+  background-size: cover;*/
+  width: 100%;
+  background: url(images/First.jpg) no-repeat fixed;
 }
 
 .content {
@@ -147,10 +148,11 @@ PAGE 2
 ***********************/
 
 #second {
-  -webkit-background-size: cover;
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  	width: 100%;
 	background: url(images/Underground.png) no-repeat fixed;
 }	
 
@@ -190,10 +192,11 @@ PAGE 3
 
 
 #third{
- -webkit-background-size: cover;
+/* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+  	width: 100%;
 	background: url(images/Third.png) no-repeat fixed;
 }
 
