@@ -31,8 +31,7 @@
 	}
 	
 	#header {
-		margin: 0 auto;
-		border: yellow 2px solid;	
+		margin: 0 auto;	
 		width: 90%;
 	}
 	
@@ -42,13 +41,11 @@
 	
 	.content {
 		width: 90%;	
-		border: yellow 2px solid;
 		height: auto;
 	}
 	
 	#video {
 		display: none;	
-		border: yellow 2px solid;
 	}
 	
 	#second {
@@ -61,8 +58,8 @@
 	#first iframe {
 		display: block !important;
 		margin: 0 auto;
-		border: yellow 2px solid;
 		width: 90%;
+		height: 21.875em;
 	}	
 	
 	#social_media {
@@ -71,7 +68,17 @@
 	
 	#social_media2 {
 		float: right;	
-		border: red 2px solid;
+		/*display: inline;*/
+	}
+	
+		
+}
+
+@media (max-width: 420px){
+	#first iframe {
+		height: 300px;
+	}
+}r: red 2px solid;
 		/*display: inline;*/
 	}
 	
