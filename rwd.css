@@ -21,6 +21,10 @@
 	
 }
 
+@media (max-width: 920px){
+	#third ul li {
+}
+
 @media (max-width: 720px){
 	
 	body {
