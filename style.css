@@ -157,6 +157,9 @@ PAGE 1
 	width: 100%;
 	height: auto;	
 }
+.button {
+	display: none;	
+}
 
 /***********************
 PAGE 2

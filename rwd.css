@@ -71,6 +71,9 @@
 		/*display: inline;*/
 	}
 	
+	#first .button {
+		display: block !important;	
+	}
 		
 }
 
@@ -78,6 +81,5 @@
 	#first iframe {
 		height: 300px;
 	}
-} 300px;
-	}
+	
 }
