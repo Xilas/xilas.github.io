@@ -74,6 +74,10 @@
 	#first .button {
 		display: block !important;	
 	}
+	
+	#first .button {
+		width: 20%;	
+	}
 		
 }
 

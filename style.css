@@ -157,7 +157,7 @@ PAGE 1
 	width: 100%;
 	height: auto;	
 }
-.button {
+#first .button {
 	display: none;	
 }
 
