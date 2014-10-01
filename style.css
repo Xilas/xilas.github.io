@@ -161,6 +161,10 @@ PAGE 1
 	display: none;	
 }
 
+#first .merch {
+	display: none;	
+}
+
 /***********************
 PAGE 2
 ***********************/
@@ -218,13 +222,13 @@ PAGE 3
 	background: url(images/Third.png) no-repeat fixed;
 }
 
-#merch {
+.merch {
     max-width:100%;
     margin:0 auto;
 	padding:5% 0;
 }
 
-#merch h1{
+.merch h1{
 	text-align: center;
 	color: white;
 	font-family:Arial, Helvetica, sans-serif;
@@ -240,7 +244,7 @@ PAGE 3
 	
 }
 #third ul li {
-    display:inline;
+    display: inline;
 	padding-left: 2%;
 }
 

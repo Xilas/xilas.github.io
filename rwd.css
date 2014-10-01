@@ -59,7 +59,7 @@
 		margin: 0 auto;
 		width: 90%;
 		height: 21.875em;
-		padding: 3%;
+		padding: 3% 3% 0 3%;
 	}	
 	
 	#social_media {
@@ -72,11 +72,24 @@
 	}
 	
 	#first .button {
+		width: 20%;	
 		display: block !important;	
+		margin-top: 4%;
 	}
 	
-	#first .button {
-		width: 20%;	
+	#first .merch {
+		display: inline !important;	
+	}
+	
+	#first .merch ul {
+    font-size:0;
+    text-align:center;
+	padding-bottom: 2%;
+	
+	}
+	#first .merch ul li {
+		display: inline;
+		padding-left: 2%;
 	}
 		
 }
