@@ -49,9 +49,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/************************
+404page
+************************/
+#
+
 
 /************************/
-
 body {
 	background: black;
 	margin: 0 auto;
@@ -59,7 +63,11 @@ body {
 	padding: 0;
 }
 
-#wrapper {
+h1 {
+	margin-left: -9000px;	
+}
+
+.wrapper {
 	width: 100%;	
 }
 
@@ -246,4 +254,20 @@ PAGE 3
 -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
 	
 }
+
+#third .button img:hover {
+	-moz-transform:scale(1); 
+-webkit-transform:scale(1);
+-o-transform:scale(1);
+-moz-box-shadow: 0 0 0 ; -webkit-box-shadow: 0 0 0 ; box-shadow: 0 0 0 0;
 }
+
+.button {
+	margin: 0 auto;
+	width: 10%;
+}
+
+.button img{
+	width: 100%;	
+}
+
