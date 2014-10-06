@@ -123,6 +123,34 @@ It can also be about adventuring with friends or watching the sun rise over a bl
     </div><!-- End Third -->
     
     <script>
+	var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+jQuery(document).ready(function(){
+    if( !isMobile.any() ){
+        $(window).stellar();
+    }
+});
+	</script>
+    
+    <script>
 $(document).ready(function(){
 	
 	
@@ -131,14 +159,14 @@ $(document).ready(function(){
   return false;
 });
  
-});
-	
-	$(window).stellar();
-	$.stellar({
-	horizontalScrolling:true
-	// rest of function
-	
-	
+//});
+//	
+//	$(window).stellar();
+//	$.stellar({
+//	horizontalScrolling:true
+//	// rest of function
+//	
+//	
 	});
 	
 </script>
