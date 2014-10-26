@@ -57,6 +57,7 @@
 @media (max-width: 580px) {
 	#rightColumn {
 		width: 50%;	
+		padding-bottom: 20%;
 	}
 	
 	#navButton1 {
@@ -66,4 +67,6 @@
 	#navButton2 {
 		display: none;	
 	}
+	
+	
 }
