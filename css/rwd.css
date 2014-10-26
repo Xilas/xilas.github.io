@@ -50,6 +50,7 @@
 		margin: 0 auto;
 		float: none;
 		width: 30%;	
+		margin-bottom: 5%;
 	}
 	
 	.form {
@@ -72,7 +73,7 @@
 @media (max-width: 580px) {
 	#rightColumn {
 		width: 50%;	
-		padding-bottom: 20%;
+		padding-bottom: 5%;
 	}
 	
 	#navButton1 {
