@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 966px){
+	#wrapper {
+		display: none;	
+	}
+	
+	#mobile{
+		display: inline !important;
+	}
+	
+	body {
+		width: 100%;
+	}
+}

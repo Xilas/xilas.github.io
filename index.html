@@ -3,60 +3,193 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/rwd.css" rel="stylesheet" type="text/css" media="screen" />
-<title>A Higher Sale</title>
+<title>Minecraft</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="rwd.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.stellar.min.js"></script>
+
+<!--http://www.twoimpulse.com/zenith/development/using-jquery-scrollto-part1-->
+
 </head>
 
 <body>
-<div id="wrapper">
-
- <!-- Panels -->
-	<div id="panel1" class="full-page-panel">
-    	<img id="logo" src="images/HigherLogo.png"/>
-        <div id="panOneText">
-        	<h2>FORGET ALL OF THE STANDARD RULES AND CONVENTIONS:</h2>
-            <p>Salesmanship is not about tired gimmicks, cliches or manipulation. First and foremost, it is a matter of inspiration.</p>
-        </div>
-        
-        
-    </div><!-- End Panel 1 -->
-    <div class="button" id="navButton1"><a href="#panel2"><img src="images/navButton.png"></a></div>
-    <div id="panel2" class="full-page-panel">
-    	<div id="rule">
-    	<div id="leftColumn">
-        	<img id="plus" src="images/plusSign.png" >
-            <p>To be truly successful, the salesperson 			    must be inspired to achieve a higher 			      	    calling. To believe that what they are selling is not simply easy or cool or convenient, but that it moves other people  to take action that will benefit them. </p>
-            <p>When a Higher Sale's Founder Larry Coco experienced the tragic death of his daughter in 2002, he had to make the highest "sale" any one ever has to make: how to go on in life without his beloved child. To do so, Coco found the all-important inspiration: to "be Danielle’s legacy in this world.”</p>
-        </div>
-        </div><!-- End Rule -->
-		<div id="rightColumn">
-        	<img src="images/rightColumn.png" width="100%">
-        </div>
-    </div><!-- End Panel 2 -->
+<div class="wrapper">
+	<div class="nav">
+	<ul>
+    	<li><a href="#first">A</a></li>
+        <li><a href="#second">A</a></li>
+        <li><a href="#third">A</a></li>
+    </ul>
+	</div>
     
-    <div class="button" id="navButton2"><a href="#panel3"><img src="images/navButton.png"></a></div>
-    
-    <div id="panel3" class="full-page-panel">
-    	<div id="spacer"></div>
-        <div id="boxText">
-        	<h2>tell us a little about yourself to get started:</h2>
-            <p>(we won’t share your information)</p>
-        </div>
+	<div id="first" data-stellar-background-ratio="0.5">
+    		<div id="header">
+            <h1>Minecraft</h1>
+            <img src="images/Minecraft.png" width="100%"/></div>
+            <div class="content">
+            <div id="creeper" style="cursor: pointer;" onclick="window.location='https://minecraft.net/store/minecraft';"><img src="images/Creeper_copy.png" style="no-repeat;"/></div>
+        	
+        	
+          <p>
+                Minecraft is a game about breaking and placing blocks. At first, people built structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things.<br /><br />
+It can also be about adventuring with friends or watching the sun rise over a blocky ocean. It’s pretty. Brave players battle terrible things in The Nether, which is more scary than pretty. You can also visit a land of mushrooms if it sounds more like your cup of tea.
+                
+            </p>
+            
+       <div>   
+        <ul id="social_media">
+        	<li><a href="https://www.facebook.com/minecraft" target="_blank"><img src="images/facebook.png"/></a></li>
+            <li><a href="https://twitter.com/jeb_"><img src="images/twitter.png" /></a></li>
+        </ul>
+       </div>
         
-        <div class="form">
-            <input type="name" placeholder="name"><br>
-            <input type="email" placeholder="email"><br>
-            <input type="phone" placeholder="phone"><br>
-            <div style="margin-left: auto; margin-right: auto; width: 160px"><button id="signup">SIGN UP</button></div>
+        
+        
+        </div><!-- End Content -->
+        
+               <div id="social_media2">   
+        <ul>
+        	<li><a href="https://www.facebook.com/minecraft" target="_blank"><img src="images/facebook.png"/></a></li>
+            <li><a href="https://twitter.com/jeb_"><img src="images/twitter.png" /></a></li>
+        </ul>
+       </div>
+        <iframe width="58%" height="31%" src="https://www.youtube.com/embed/MmB9b5njVbA?hd=1&autohide=1&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen>
+            </iframe>
+            	<div class="merch">
+        	<h2>Minecraft Merch</h2>
+        <ul class="hover">
+        	<li><a href="https://www.jinx.com/minecraft/minecraft_creeper_inside_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/CreeperInside.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/p/minecraft_creepers_gonna_creep_premium_tee.html?catid=&cs=1&csd=&preview=1&s=minecraft" target="_blank"><img src="images/CreepersGonnaCreep.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/p/minecraft_logo_premium_tee.html?catid=&cs=1&csd=&preview=1&s=minecraft" target="_blank"><img src="images/MinecraftLogo.png" width="17.4%"></a></li>
+        </ul>
+        
+         <ul class="hover">
+        	<li><a href="https://www.jinx.com/minecraft/minecraft_one_more_block_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/OneMoreBlock.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/p/minecraft_periodic_table_premium_tee.html?cs=7&csd=2605" target="_blank"><img src="images/PeriodicTable.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/minecraft/minecraft_powered_by_redstone_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/PoweredByRedstone.png" width="17.4%"></a></li>
+        </ul>
+        
+        <ul class="hover">
+        	<li><a href="https://www.jinx.com/p/minecraft_creeper_anatomy_premium_tee.html?catid=&cs=1&csd=&preview=1&s=minecraft" target="_blank"><img src="images/CreeperAnatomy.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/minecraft/minecraft_diamond_crafting_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/Diamonds.png"  width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/minecraft/minecraft_i_porkchop_minecraft_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"  ><img src="images/IPorkMinecraft.png" width="17.4%"></a></li>
+        </ul>
+        
+        </div><!-- End Merch -->
+        
+        <div class="button"><a href="404.html" target="_blank"><img src="images/404button.png"></a></div>
+        
+    </div><!-- End first -->
+    
+    <div id="second" data-stellar-background-ratio="0.5">
+    	<div id="video_container">
+        	<iframe id="video" width="630" height="350" src="https://www.youtube.com/embed/MmB9b5njVbA?hd=1&autohide=1&showinfo=0&wmode=opaque" frameborder="0" allowfullscreen>
+            </iframe>
+            <h2>Who made the thing?</h2>
+            <p>Minecraft was originally created by Markus Persson, who you might know as Notch. On November 19th, 2011, Jens Bergensten, who you might know as Jeb, took over creative control so Markus could concentrate on new things.
+</p>
+			<p>Thanks to Minecraft’s success, Markus formed his own company in 2009. Mojang AB currently has two titles in development. Scrolls and Markus’ newest project, 0x10c, are both getting cooked up. Mojang AB is also publishing Oxeye Studio’s latest game, Cobalt.</p>
+            <h2>A longer history</h2>
+            <p>June 1st, 2009. Stockholm. Markus Persson quits his job at an established games developer to create his own game. Unemployed, but enthusiastic, Markus was looking for inspiration, and it came from indie game development blog, Tigsource. Thanks to the resource, the man you probably know as "Notch" ended up playing Zachtronic Industries' Infiniminer: an innovative indie which tasked players with collecting resources while cutting into a randomly generated landscape. It was a simple game at heart, but Markus realised potential for something great. He began work on a new project a few weeks after Infiniminer was discontinued.</p>
         </div>
-    </div>
- <!-- End Panels -->   
+    </div><!--End second -->
+    <div id="third" data-stellar-background-ratio="0.5">
+    	<div class="merch">
+        	<h2>Minecraft Merch</h2>
+        <ul class="hover">
+        	<li><a href="https://www.jinx.com/minecraft/minecraft_creeper_inside_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/CreeperInside.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/p/minecraft_creepers_gonna_creep_premium_tee.html?catid=&cs=1&csd=&preview=1&s=minecraft" target="_blank"><img src="images/CreepersGonnaCreep.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/p/minecraft_logo_premium_tee.html?catid=&cs=1&csd=&preview=1&s=minecraft" target="_blank"><img src="images/MinecraftLogo.png" width="17.4%"></a></li>
+        </ul>
+        
+         <ul class="hover">
+        	<li><a href="https://www.jinx.com/minecraft/minecraft_one_more_block_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/OneMoreBlock.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/p/minecraft_periodic_table_premium_tee.html?cs=7&csd=2605" target="_blank"><img src="images/PeriodicTable.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/minecraft/minecraft_powered_by_redstone_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/PoweredByRedstone.png" width="17.4%"></a></li>
+        </ul>
+        
+        <ul class="hover">
+        	<li><a href="https://www.jinx.com/p/minecraft_creeper_anatomy_premium_tee.html?catid=&cs=1&csd=&preview=1&s=minecraft" target="_blank"><img src="images/CreeperAnatomy.png" width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/minecraft/minecraft_diamond_crafting_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"><img src="images/Diamonds.png"  width="17.4%"></a></li>
+            <li><a href="https://www.jinx.com/minecraft/minecraft_i_porkchop_minecraft_premium_tee.html?catid=287&cs=2&csd=287" target="_blank"  ><img src="images/IPorkMinecraft.png" width="17.4%"></a></li>
+        </ul>
+        
+       
+        <div class="button"><a href="404.html" target="_blank"><img src="images/404button.png"></a></div>
+        </div><!-- End Merch -->
+        
+    </div><!-- End Third -->
+    
+    <script>
+	var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+jQuery(document).ready(function(){
+    if( !isMobile.any() ){
+        $(window).stellar();
+    }
+});
+	</script>
+    
+    <script>
+$(document).ready(function(){
+	
+	
+	$('.nav a').click(function(){
+  $.scrollTo( this.hash, 1500, { easing:'swing' });
+  return false;
+});
  
+//});
+//	
+//	$(window).stellar();
+//	$.stellar({
+//	horizontalScrolling:true
+//	// rest of function
+//	
+//	
+	});
+	
+</script>
+
+<!--<script>
+function OpenInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+</script>
+
+<script>
+$(document).ready(function(){
+
+	$(".full-page-panel").height($(window).height());
+
+});
+
+$(window).resize(function(){
+
+	$(".full-page-panel").height($(window).height());
+});
+</script>-->
 </div>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/style.js"></script>
-  <!-- <script src="js/submitform.js"></script> -->
-    <script src="js/Placeholders.js"></script>
 </body>
 </html>
