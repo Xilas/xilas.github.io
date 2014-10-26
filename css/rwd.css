@@ -22,8 +22,8 @@
 	}
 	
 	#panOneText {
-		margin-right: 30%;
-		margin-left: 30%;	
+		margin-right: 10%;
+		margin-left: 10%;	
 	}
 	
 	#leftColumn {
@@ -31,7 +31,7 @@
 		float: none;
 		border-right: none;	
 		text-align: center;
-		width: 60%;
+		width: 70%;
 		padding-right: none;
 		padding-top: 5%;
 	}
@@ -50,6 +50,21 @@
 		margin: 0 auto;
 		float: none;
 		width: 30%;	
+	}
+	
+	.form {
+		width: 60%;	
+		margin-bottom: 2%;
+	}
+	
+	#boxText {
+		width: 70%;	
+		padding: 2%;
+	}
+	
+	#boxText p{
+		font-size: 1em;
+		line-height: 1;	
 	}
 	
 }
