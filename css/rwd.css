@@ -58,4 +58,12 @@
 	#rightColumn {
 		width: 50%;	
 	}
+	
+	#navButton1 {
+		display: none;	
+	}
+	
+	#navButton2 {
+		display: none;	
+	}
 }
