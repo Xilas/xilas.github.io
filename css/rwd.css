@@ -7,12 +7,31 @@
 }
 
 @media (max-width: 880px) {
+	#panel1 p{
+		font-size: .75em;	
+		line-height: 2;
+	}
+	
+	#panel1 img {
+		width: 80%;	
+	}
+	
+	#panel1 h2 {
+		font-size: 1em;	
+		line-height: 2;
+	}
+	
+	#panOneText {
+		margin-right: 30%;
+		margin-left: 30%;	
+	}
+	
 	#leftColumn {
 		margin: 0 auto;
 		float: none;
 		border-right: none;	
 		text-align: center;
-		width: 30%;
+		width: 60%;
 		padding-right: none;
 		padding-top: 5%;
 	}
@@ -29,6 +48,14 @@
 	
 	#rightColumn {
 		margin: 0 auto;
-		float: none;	
+		float: none;
+		width: 30%;	
+	}
+	
+}
+
+@media (max-width: 580px) {
+	#rightColumn {
+		width: 50%;	
 	}
 }
